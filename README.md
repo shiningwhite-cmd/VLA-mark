@@ -199,7 +199,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/)
 - [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://qwenlm.github.io/blog/qwen2-vl/)
 - [AMBER: An LLM-free Multi-dimensional Benchmark for MLLMs Evaluation](https://arxiv.org/abs/2311.07397) - Wang et al., 2023
-- [AMBER GitHub Repository](https://github.com/junyangwang0410/AMBER) - Official dataset and evaluation tools
 
 ## 📧 Contact
 
