@@ -19,6 +19,8 @@ Peijie Jiang<sup>4</sup>, Jia Liu<sup>4</sup>, Yik-Cheung Tam<sup>5</sup>, Xumin
     <a href="https://arxiv.org/abs/2507.14067"><img src="assest/Paper-Arxiv-orange.svg" ></a>
 </div>
 
+## Abstract
+
 Vision-language models demand watermarking solutions that protect intellectual property without compromising multimodal coherence. Existing text watermarking methods disrupt visual-textual alignment through biased token selection and static strategies, leaving semantic-critical concepts vulnerable. We propose VLA-Mark, a vision-aligned framework that embeds detectable watermarks while preserving semantic fidelity through cross-modal coordination. Our approach integrates multiscale visual-textual alignment metrics, combining localized patch affinity, global semantic coherence, and contextual attention patterns, to guide watermark injection without model retraining. An entropy-sensitive mechanism dynamically balances watermark strength and semantic preservation, prioritizing visual grounding during low-uncertainty generation phases. Experiments show 7.4% lower PPL and 26.6% higher BLEU than conventional methods, with near perfect detection (98.8% AUC). The framework demonstrates 96.1% attack resilience against attacks such as paraphrasing and synonym substitution, while maintaining text-visual consistency, establishing new standards for quality-preserving multimodal watermarking 
 
 <div align="center">
@@ -160,15 +162,8 @@ The system provides comprehensive evaluation metrics:
 
 ## 🎯 Supported Models
 
-### LLaVA (Large Language and Vision Assistant)
-- Model: `llava-1.5-7b-hf`
-- Vision tower integration
-- Multi-modal projector support
-
-### Qwen2-VL
-- Model: `Qwen2-VL-7B-Instruct`
-- Advanced vision-language capabilities
-- Device mapping support
+- LLaVA: `llava-1.5-7b-hf`
+- Qwen2-VL: `Qwen2-VL-7B-Instruct`
 
 ## 📁 Dataset Format
 
@@ -195,16 +190,6 @@ The system provides comprehensive evaluation metrics:
 - Supported formats: JPG, PNG
 - Naming convention: `{TASK_NAME}_{ID}{DATA_SUFFIX}`
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -220,7 +205,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions, issues, or collaboration opportunities, please open an issue on GitHub.
 
----
-
-**Note**: This is a research project focused on watermarking for vision-language models. Please ensure responsible use and compliance with applicable regulations and ethical guidelines.
->>>>>>> 06fcfaf (init)
