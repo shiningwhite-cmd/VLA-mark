@@ -198,9 +198,25 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/)
 - [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://qwenlm.github.io/blog/qwen2-vl/)
-- [AMBER: An LLM-free Multi-dimensional Benchmark for MLLMs Evaluation](https://arxiv.org/abs/2311.07397) - Wang et al., 2023
+- [AMBER: An LLM-free Multi-dimensional Benchmark for MLLMs Evaluation](https://arxiv.org/abs/2311.07397)
 
 ## 📧 Contact
 
 For questions, issues, or collaboration opportunities, please open an issue on GitHub.
+
+## 📖 Citation
+
+If you use VLA-Mark in your research, please cite our paper:
+
+```bibtex
+@misc{liu2025vlamarkcrossmodalwatermark,
+      title={VLA-Mark: A cross modal watermark for large vision-language alignment model},
+      author={Shuliang Liu and Qi Zheng and Jesse Jiaxi Xu and Yibo Yan and He Geng and Aiwei Liu and Peijie Jiang and Jia Liu and Yik-Cheung Tam and Xuming Hu},
+      year={2025},
+      eprint={2507.14067},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.14067}
+}
+```
 
